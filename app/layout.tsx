@@ -215,26 +215,6 @@ export default function RootLayout({
             </footer>
 
             <Footers />
-            <div className="hotline-phone-ring-wrap">
-              <div className="hotline-phone-ring">
-                <div className="hotline-phone-ring-circle" />
-                <div className="hotline-phone-ring-circle-fill" />
-                <div className="hotline-phone-ring-img-circle">
-                  <a href="tel: 0918638068" className="pps-btn-img">
-                    <img
-                      src="https://wiki.minhduy.vn/wp-content/uploads/2022/07/icon-call-nh.png"
-                      alt="Gọi điện thoại"
-                      width={50}
-                    />
-                  </a>
-                </div>
-              </div>
-              <div className="hotline-bar">
-                <a href="tel: 0918638068">
-                  <span className="text-hotline"> 0918 638 068</span>
-                </a>
-              </div>
-            </div>
           </div>
         </Providers>
       </body>
