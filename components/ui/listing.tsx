@@ -1,12 +1,17 @@
-'use client';
+"use client";
 
-import type { ListingItemTypes } from '@components/types';
-import Image from 'next/image';
-import Link from 'next/link';
+import type { ListingItemTypes } from "@/components/types";
+import Image from "next/image";
+import Link from "next/link";
 
-import { Navigation, Pagination, Swiper, SwiperSlide } from './slider';
+import { Navigation, Pagination, Swiper, SwiperSlide } from "./slider";
 
-export default function ListingCard({ id, slides, title, price }: ListingItemTypes) {
+export default function ListingCard({
+  id,
+  slides,
+  title,
+  price,
+}: ListingItemTypes) {
   return (
     <>
       <div className="listing-card group/item relative inline-flex w-full flex-col">
@@ -43,11 +48,16 @@ export default function ListingCard({ id, slides, title, price }: ListingItemTyp
         </div>
         <Link href="#">
           <div className="content pt-3">
-            <h2 className="text-gray-dark text-ellipsis font-bold 2xl:mb-1.5">{title}</h2>
+            <h2 className="text-gray-dark text-ellipsis font-bold 2xl:mb-1.5">
+              {title}
+            </h2>
             <p className="text-gray-light mb-3 xl:mb-3">Đưa đón tại Đà Lạt</p>
             <div className="flex flex-wrap items-center justify-between gap-3">
               <p className="text-gray-light">
-                <span className="text-gray-dark 3xl:text-xl font-bold xl:text-[18px]">{price}</span> /ngày
+                <span className="text-gray-dark 3xl:text-xl font-bold xl:text-[18px]">
+                  {price}
+                </span>{" "}
+                /ngày
               </p>
               <div className="flex items-center gap-3 leading-7">
                 {/* <Rate

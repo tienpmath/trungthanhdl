@@ -14,31 +14,19 @@ const LichTrinhComponent = () => {
         <table className="w-full text-left text-sm text-gray-500 rtl:text-right dark:text-gray-400">
           <thead className="bg-gray-50 text-xs uppercase text-gray-700 dark:bg-gray-700 dark:text-gray-400">
             <tr>
-              <th scope="col" className="p-2">
-                STT
-              </th>
-              <th scope="col" className="px-6 py-3">
-                LỊCH TRÌNH
-              </th>
-              <th scope="col" className="px-6 py-3">
-                XE 4 CHỖ
-              </th>
-              <th scope="col" className="px-6 py-3">
-                XE 7 CHỖ
-              </th>
-              <th scope="col" className="px-6 py-3">
-                XE 16 CHỖ
-              </th>
+              <th className="p-2">STT</th>
+              <th className="px-6 py-3">LỊCH TRÌNH</th>
+              <th className="px-6 py-3">XE 4 CHỖ</th>
+              <th className="px-6 py-3">XE 7 CHỖ</th>
+              <th className="px-6 py-3">XE 16 CHỖ</th>
 
-              <th scope="col" className="px-6 py-3">
-                XE 29 CHỖ
-              </th>
+              <th className="px-6 py-3">XE 29 CHỖ</th>
             </tr>
           </thead>
           <tbody>
             <tr className="border-b bg-white hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-600">
               <td className="p-2">1</td>
-              <td scope="row" className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
+              <td className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
                 Đón/Tiễn Sân bay Liên Khương - Đà Lạt
               </td>
               <td className="px-6 py-4">250.000 đ</td>
@@ -48,7 +36,7 @@ const LichTrinhComponent = () => {
             </tr>
             <tr className="border-b bg-white hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-600">
               <td className="p-2">2</td>
-              <td scope="row" className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
+              <td className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
                 Tham quan nội thành Đà Lạt 1 ngày
               </td>
               <td className="px-6 py-4">800.000 đ</td>
@@ -58,7 +46,7 @@ const LichTrinhComponent = () => {
             </tr>
             <tr className="border-b bg-white hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-600">
               <td className="p-2">3</td>
-              <td scope="row" className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
+              <td className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
                 Tham quan ngoại thành Đà Lạt 1 ngày
               </td>
               <td className="px-6 py-4">1.000.000 đ</td>
@@ -68,7 +56,7 @@ const LichTrinhComponent = () => {
             </tr>
             <tr className="border-b bg-white hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-600">
               <td className="p-2">4</td>
-              <td scope="row" className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
+              <td className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
                 Tham quan Đà Lạt 1/2 ngày
               </td>
               <td className="px-6 py-4">500.000 đ</td>
@@ -78,7 +66,7 @@ const LichTrinhComponent = () => {
             </tr>
             <tr className="border-b bg-white hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-600">
               <td className="p-2">5</td>
-              <td scope="row" className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
+              <td className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
                 Đà Lạt - Nha Trang (1 chiều)
               </td>
               <td className="px-6 py-4">1.500.000 đ</td>
@@ -88,7 +76,7 @@ const LichTrinhComponent = () => {
             </tr>
             <tr className="border-b bg-white hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-600">
               <td className="p-2">6</td>
-              <td scope="row" className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
+              <td className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
                 Đón/Tiễn Sân bay + Tham quan Đà Lạt 1 ngày
               </td>
               <td className="px-6 py-4">1.200.000 đ</td>
@@ -98,7 +86,7 @@ const LichTrinhComponent = () => {
             </tr>
             <tr className="border-b bg-white hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-600">
               <td className="p-2">7</td>
-              <td scope="row" className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
+              <td className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
                 Đón/Tiễn Sân bay + Tham quan Đà Lạt 1/2 ngày
               </td>
               <td className="px-6 py-4">750.000 đ</td>
@@ -108,7 +96,7 @@ const LichTrinhComponent = () => {
             </tr>
             <tr className="border-b bg-white hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-600">
               <td className="p-2">8</td>
-              <td scope="row" className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
+              <td className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
                 Đà Lạt - Phan Thiết (1 chiều)
               </td>
               <td className="px-6 py-4">1.500.000 đ</td>
@@ -118,7 +106,7 @@ const LichTrinhComponent = () => {
             </tr>
             <tr className="border-b bg-white hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-600">
               <td className="p-2">9</td>
-              <td scope="row" className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
+              <td className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
                 Đà Lạt - TP Hồ Chí Minh (1 chiều)
               </td>
               <td className="px-6 py-4">3.600.000 đ</td>
@@ -128,7 +116,7 @@ const LichTrinhComponent = () => {
             </tr>
             <tr className="border-b bg-white hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-600">
               <td className="p-2">10</td>
-              <td scope="row" className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
+              <td className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
                 Đà Lạt - Buôn Mê Thuật (1 chiều)
               </td>
               <td className="px-6 py-4">2.400.000 đ</td>
@@ -138,7 +126,7 @@ const LichTrinhComponent = () => {
             </tr>
             <tr className="border-b bg-white hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-600">
               <td className="p-2">11</td>
-              <td scope="row" className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
+              <td className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
                 Đà Lạt - Bảo Lộc (1 chiều)
               </td>
               <td className="px-6 py-4">1.100.000 đ</td>
@@ -148,7 +136,7 @@ const LichTrinhComponent = () => {
             </tr>
             <tr className="border-b bg-white hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-600">
               <td className="p-2">12</td>
-              <td scope="row" className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
+              <td className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white">
                 Phí phát sinh sau 17h30
               </td>
               <td className="px-6 py-4">100.000/giờ đ</td>
