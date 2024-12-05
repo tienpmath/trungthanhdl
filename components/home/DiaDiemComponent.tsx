@@ -260,7 +260,7 @@ const DiaDiem = () => {
         {destinations?.map((item: DestinationTypes, index: number) => (
           <div key={index}>
             <a
-              href="#"
+              href="/"
               className="flex flex-col items-center rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 md:max-w-xl md:flex-row dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
             >
               <img
